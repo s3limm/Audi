@@ -97,13 +97,30 @@ nav ul li.btn:hover a {
     margin-bottom: 40px;
 }
 
-.content .main-text h1 {
-    font-size: 75px;
-    line-height: 1;
-    color: white;
-    margin: 0px 0px 45px;
-    font-family: 'Berkshire Swash', cursive;
+.content .main-text h1 {   
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+    line-height: 170px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff ;
+    background: url(/pictures/mk11.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+  animation: back 20s linear infinite;
+  
 }
+
+@keyframes back
+  {
+    100%
+    {
+      background-position: 1400px 0;
+    }
+  }
+
+
 
 .content .main-text h3 {
     font-size: 18px;
@@ -136,7 +153,7 @@ nav ul li.btn:hover a {
 
 .content .main-text a:hover {
     transform: scale(1.2);
-    border: 1px solid ;
+    border: 1px solid;
     background: transparent;
     color: white;
     transition: .4s;
@@ -189,6 +206,8 @@ nav ul li.btn:hover a {
     text-align: right;
 }
 
-.image img{
+.image img {
     height: 100%;
 }
+
+
