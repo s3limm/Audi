@@ -1,0 +1,109 @@
+.Content {
+    padding-top: 140px;
+}
+
+.Content .Main-Text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.Content .Main-Text h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+    .Content .Main-Text h1 {
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150px;
+        line-height: 170px;
+        margin-left: -10px;
+
+    }
+
+
+
+    .Content .Main-Text h1 {   
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 150px;
+        line-height: 170px;
+        margin-left: -10px;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff ;
+        background: url(/pictures/alev.jpg);
+        -webkit-background-clip: text;
+        background-position: 0 0;
+      animation: back 20s linear infinite;
+      
+    }
+    
+    @keyframes back
+      {
+        100%
+        {
+          background-position: 1400px 0;
+        }
+      }
+
+
+
+
+    .Content .Main-Text h3 {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .Content .Main-Text p {
+        max-width: 100%;
+        width: 480px;
+        color: white;
+        line-height: 1.8;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .Content .Main-Text a {
+
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        background: white;
+        border: 1px dolid white;
+        padding: 9px 25px;
+        line-height: 1.4;
+        border-radius: 30px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .Content .Main-Text a:hover {
+        transform: scale(1.2);
+        border: 1px solid;
+        background: transparent;
+        color: white;
+        transition: .5s;
+    }
+
+    .Content .Main-Text a.cta {
+        border: 1px solid #ffca58;
+        color: white;
+        background: transparent;
+        margin-left: 20px;
+    }
+
+    .Content .Main-Text a.cta i {
+        margin-right: 12px;
+    }
+
+    .Content .Main-Text a.cta:hover {
+        color: black;
+        background: white;
+        border: 1px solid white;
+        transition: .5s;
+    }
