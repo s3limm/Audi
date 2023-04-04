@@ -8,55 +8,23 @@
     margin-bottom: 50px;
 }
 
-.Content .Main-Text h6 {
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 40px;
-}
-
-
-    .Content .Main-Text h1 {
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 150px;
-        line-height: 170px;
-        margin-left: -10px;
-
-    }
-
-
-
     .Content .Main-Text h1 {   
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 150px;
-        line-height: 170px;
-        margin-left: -10px;
-        color: transparent;
-        -webkit-text-stroke: 1px #fff ;
-        background: url(/pictures/alev.jpg);
-        -webkit-background-clip: text;
-        background-position: 0 0;
-      animation: back 20s linear infinite;
-      
+        font-weight: 500;
+        font-family:'Montserrat', sans-serif;;
+        letter-spacing: 3px;
+        font-size: 50px;
+        line-height: 70px;
+        color: white;
     }
-    
-    @keyframes back
-      {
-        100%
-        {
-          background-position: 1400px 0;
-        }
-      }
-
-
 
 
     .Content .Main-Text h3 {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 300;
+        letter-spacing: 3px;
+        font-family: 'Montserrat', sans-serif;
         color: white;
+        line-height: 70px;
     }
 
     .Content .Main-Text p {

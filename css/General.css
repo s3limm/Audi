@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    background-image: url('/pictures/nature-1680596540289-6717.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+  
+  body::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* burada shader alanının yüksekliğini ayarlayabilirsiniz */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    z-index: -1;
+  }
+  
+
+
+
+
+.Main-Width {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.Hero {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}

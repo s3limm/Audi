@@ -55,49 +55,6 @@ nav ul li.btn:hover a {
 }
 
 
-.Search-Bar {
-    height: 60px;
-    background-color: #1d1d1c;        
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 30px;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
-}
-
-.Search-Bar:hover input {
-    width: 350px;
-    transition: 1s;
-}
-
-.Search-Bar input {
-    width: 0;
-    color: #fff;
-    font-weight: 500;
-    font-size: 18px;
-    transition: 1s;
-    border: 0px solid black;
-    background: #2e2d28;
-}
-
-a {
-    text-decoration: none;
-}
-
-.Search-Bar .btn i {
-    color: #1da1f2;
-    font-size: 24px;
-    display: none;
-    padding: 10px;
-
-}
-
-.Search-Bar:hover .fas {
-    display: block;
-
-}
-
 .logo {
     width: 60px;
     justify-content: center;
