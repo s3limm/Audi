@@ -1,5 +1,31 @@
 .Content {
-    padding-top: 140px;
+    background-image: url("/pictures/e-tron_banner_new.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    height: 970px;
+  
+}
+
+.Content::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* burada shader alanının yüksekliğini ayarlayabilirsiniz */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    z-index: -1;
+}
+
+
+
+.Content .Main-Text  {
+    padding: 30px 0px 0px 120px;
 }
 
 .Content .Main-Text {
@@ -8,70 +34,67 @@
     margin-bottom: 50px;
 }
 
-    .Content .Main-Text h1 {   
-        font-weight: 500;
-        font-family:'Montserrat', sans-serif;;
-        letter-spacing: 3px;
-        font-size: 50px;
-        line-height: 70px;
-        color: white;
-    }
+.Content .Main-Text h1 {
+    font-family: 'Audi Type', sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+    
+}
+
+.Content .Main-Text h3 {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 70px;
+}
+
+.Content .Main-Text .btn {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #666666;
+    background: white;
+    padding: 18px 35px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Audi Type', sans-serif;
+    font-weight: 500;
+}
+
+.Content .Main-Text .btn:hover {
+    background-color: #dddddd;
+    color: #666666;
+}
 
 
-    .Content .Main-Text h3 {
-        font-size: 18px;
-        font-weight: 300;
-        letter-spacing: 3px;
-        font-family: 'Montserrat', sans-serif;
-        color: white;
-        line-height: 70px;
-    }
+.Content2 {
+    background-image: url("/pictures/bg-foto.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    height: 1700px;
+    transition: transform .15s ease-out;
+    --transition-ease-in: cubic-bezier(.69,.01,.83,.56);
+    --transition-ease-out: cubic-bezier(.21,.55,.43,1);
+    --transition-ease-in-out: cubic-bezier(.75,.02,.5,1);
+    transform: translate3d(-50%, 29.7148px, 0px);
+    top: -72px;
+    left: 50%;
+    will-change: transform;
+    backface-visibility: hidden;
+}
 
-    .Content .Main-Text p {
-        max-width: 100%;
-        width: 480px;
-        color: white;
-        line-height: 1.8;
-        font-size: 15px;
-        margin-bottom: 50px;
-    }
 
-    .Content .Main-Text a {
-
-        display: inline-block;
-        text-decoration: none;
-        color: black;
-        background: white;
-        border: 1px dolid white;
-        padding: 9px 25px;
-        line-height: 1.4;
-        border-radius: 30px;
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .Content .Main-Text a:hover {
-        transform: scale(1.2);
-        border: 1px solid;
-        background: transparent;
-        color: white;
-        transition: .5s;
-    }
-
-    .Content .Main-Text a.cta {
-        border: 1px solid #ffca58;
-        color: white;
-        background: transparent;
-        margin-left: 20px;
-    }
-
-    .Content .Main-Text a.cta i {
-        margin-right: 12px;
-    }
-
-    .Content .Main-Text a.cta:hover {
-        color: black;
-        background: white;
-        border: 1px solid white;
-        transition: .5s;
-    }
+.Content2 .Main-Text2  {
+    background-color: rgb(235, 235, 235);
+    margin: 1000px 100px;
+}

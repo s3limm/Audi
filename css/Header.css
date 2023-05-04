@@ -1,62 +1,31 @@
-.Hero header .Logo h2 a {
-    display: block;
-    font-size: 32px;
-    font-weight: 600;
-    text-decoration: none;
-    color: white;
-}
-
 .Hero header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 0 30px;
+    background-color: white;
+    padding: 0px 905px 0px 92px;
+    height: 72px;
 }
 
-nav ul li {
+.Logo {
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.Hero .Menu ul li {
 
     list-style: none;
     display: inline-block;
+
 }
 
-nav ul li a {
+.Hero .Menu ul li  a {
+    font-family: 'Audi Type', sans-serif;                             
     text-decoration: none;
-    color: white;
-    margin-left: 60px;
-    font-size: 15px;
-    font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: .4s;
-}
-
-nav ul li:not(:last-child) a:hover,
-nav ul li:not(:last-child) a:focus {
-    border-bottom: 2px solid #ffca58;
+    color: #666666;
+    margin-left: 20px;
+    font-size: 17px;
 }
 
 
-nav ul li.btn a {
-    background: transparent;
-    color: white;
-    border: 1px solid #ffae00;
-    padding: 9px 20px;
-    border-radius: 30px;
-    line-height: 1.4;
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 150px;
-}
-
-nav ul li.btn:hover a {
-    border: 1px solid #ffae00;
-    color: black;
-    background: #ffae00;
-    transition: .4s;
-}
-
-
-.logo {
-    width: 60px;
-    justify-content: center;
-    align-items: center;
-}
