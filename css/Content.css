@@ -86,7 +86,7 @@
     --transition-ease-in: cubic-bezier(.69,.01,.83,.56);
     --transition-ease-out: cubic-bezier(.21,.55,.43,1);
     --transition-ease-in-out: cubic-bezier(.75,.02,.5,1);
-    transform: translate3d(-50%, 29.7148px, 0px);
+    transform: translate3d(-50%, 29px, 50px);
     top: -72px;
     left: 50%;
     will-change: transform;
