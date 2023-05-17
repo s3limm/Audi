@@ -36,6 +36,7 @@
 
 .Content .Main-Text h1 {
     font-family: 'Audi Type', sans-serif;
+    font-stretch: extra-expanded;
     font-weight: 400;
     letter-spacing: -0.015em;
     font-size: 40px;
@@ -98,3 +99,33 @@
     background-color: rgb(235, 235, 235);
     margin: 1000px 100px;
 }
+
+
+
+.ModalBand
+{
+    padding: 1rem;
+    list-style: none;
+    display: inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 900px;
+    width: 85vw;
+    margin: auto;
+}
+
+.CarList
+{
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+}
+
+.CarList img
+{
+    scroll-snap-align: start;
+    width: 250px;
+    height: 100px;
+}
+
