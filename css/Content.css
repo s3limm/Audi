@@ -1,3 +1,5 @@
+/* Content 1 Start */
+
 .Content {
     background-image: url("/pictures/e-tron_banner_new.avif");
     background-repeat: no-repeat;
@@ -7,7 +9,7 @@
     position: relative;
     z-index: 1;
     height: 970px;
-  
+
 }
 
 .Content::before {
@@ -24,7 +26,7 @@
 
 
 
-.Content .Main-Text  {
+.Content .Main-Text {
     padding: 30px 0px 0px 120px;
 }
 
@@ -42,7 +44,7 @@
     font-size: 40px;
     line-height: 60px;
     color: white;
-    
+
 }
 
 .Content .Main-Text h3 {
@@ -72,61 +74,173 @@
     color: #666666;
 }
 
+/* Content 1 End */
 
+
+
+
+/* Modal Band Start */
+.ModalBand {
+    padding: 0px 54px 75px 54px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 1680px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.ModalBand-Navbar {
+    padding: 20px 0px 50px 20px;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.ModalBand-Navbar li{
+    letter-spacing: 1px;
+    color: rgb(128, 128, 128);
+    font-size: 17px;
+    line-height: 25px;
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    font-family: 'Raleway', sans-serif;
+}
+
+.ModalBand-Navbar .Model1
+{
+    border-bottom: 1px solid black;
+}
+
+.ModalBand-Navbar .Model2
+{
+    color: #848484;
+}
+
+
+.CarList {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-left: 90px;
+    text-align: center;
+}
+
+.CarList li a {
+    text-decoration: none;
+    color: black;
+    font-family: AudiTypeWide, sans-serif;
+}
+
+.CarList li a:hover {
+    font-weight: 600;
+    color: rgb(39, 39, 39);
+    text-decoration: underline;
+}
+
+
+.CarList::-webkit-scrollbar {
+    display: none;
+}
+
+.CarList img {
+    scroll-snap-align: center;
+    width: 205px;
+    height: 88px;
+    transition: .4s ease;
+}
+
+.CarList img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.next {
+    left: auto;
+    right: 0;
+    background-color: #fff;
+    display: block;
+    height: 100px;
+    position: absolute;
+    top: 1125px;
+    width: 54px;
+}
+
+.next-item-inner {
+    border-left: 1px solid #b3b3b3;
+    border-right: none;
+    height: 5.60397vw;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.icon-forward {
+    height: 48px;
+    left: calc(50% - 24px);
+    position: absolute;
+    top: calc(50% - 24px);
+    width: 48px;
+}
+
+.prev {
+    left: 0;
+    background-color: #fff;
+    display: block;
+    height: 100px;
+    position: absolute;
+    top: 1125px;
+    width: 54px;
+}
+
+.prev-item-inner {
+    border-right: 1px solid #b3b3b3;
+    border-left: none;
+    height: 5.60397vw;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.icon-back {
+    height: 48px;
+    right: calc(50% - 24px);
+    position: absolute;
+    top: calc(50% - 24px);
+    width: 48px;
+}
+
+/* Modal Band End */
+
+
+
+/* Content 2 Start */
 .Content2 {
     background-image: url("/pictures/bg-foto.avif");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    overflow-x: hidden;
+    overflow-x: auto;
     position: relative;
     z-index: 1;
     height: 1700px;
     transition: transform .15s ease-out;
-    --transition-ease-in: cubic-bezier(.69,.01,.83,.56);
-    --transition-ease-out: cubic-bezier(.21,.55,.43,1);
-    --transition-ease-in-out: cubic-bezier(.75,.02,.5,1);
-    transform: translate3d(-50%, 29px, 50px);
-    top: -72px;
+    --transition-ease-in: cubic-bezier(.69, .01, .83, .56);
+    --transition-ease-out: cubic-bezier(.21, .55, .43, 1);
+    --transition-ease-in-out: cubic-bezier(.75, .02, .5, 1);
+    transform: translate3d(-50%, 0px, 50px);
     left: 50%;
     will-change: transform;
     backface-visibility: hidden;
 }
 
 
-.Content2 .Main-Text2  {
+.Content2 .Main-Text2 {
     background-color: rgb(235, 235, 235);
     margin: 1000px 100px;
 }
 
-
-
-.ModalBand
-{
-    padding: 1rem;
-    list-style: none;
-    display: inline-block;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    max-width: 900px;
-    width: 85vw;
-    margin: auto;
-}
-
-.CarList
-{
-    display: flex;
-    gap: 40px;
-    overflow-x: auto;
-    scroll-snap-type: x proximity;
-  
-}
-
-.CarList img
-{
-    scroll-snap-align: start;
-    width: 250px;
-    height: 100px;
-}
-
+/* Content 2 End */
