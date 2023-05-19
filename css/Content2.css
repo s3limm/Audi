@@ -1,0 +1,28 @@
+/* Content 2 Start */
+.Content2 {
+    background-image: url("/pictures/bg-foto.avif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: auto;
+    position: relative;
+    z-index: 1;
+    height: 1700px;
+    transition: transform .15s ease-out;
+    --transition-ease-in: cubic-bezier(.69, .01, .83, .56);
+    --transition-ease-out: cubic-bezier(.21, .55, .43, 1);
+    --transition-ease-in-out: cubic-bezier(.75, .02, .5, 1);
+    transform: translate3d(-50%, 0px, 50px);
+    left: 50%;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+
+.Content2 .Main-Text2 {
+    background-color: rgb(235, 235, 235);
+    margin: 1000px 100px;
+}
+
+/* Content 2 End */
