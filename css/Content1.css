@@ -1,0 +1,83 @@
+/* Content 1 Start */
+
+.Content {
+    background-image: url("/pictures/e-tron_banner_new.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    height: 970px;
+
+}
+
+.Content::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    /* burada shader alanının yüksekliğini ayarlayabilirsiniz */
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent);
+    z-index: -1;
+}
+
+
+
+.Content .Main-Text {
+    padding: 30px 0px 0px 120px;
+}
+
+.Content .Main-Text {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.Content .Main-Text h1 {
+    font-family: 'Audi Type', sans-serif;
+    font-stretch: extra-expanded;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+
+}
+
+.Content .Main-Text h3 {
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    line-height: 70px;
+}
+
+.Content .Main-Text .btn {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #666666;
+    background: white;
+    padding: 18px 35px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Audi Type', sans-serif;
+    font-weight: 500;
+}
+
+.Content .Main-Text .btn:hover {
+    background-color: #dddddd;
+    color: #666666;
+}
+
+/* Content 1 End */
+
+
+
+
+
+
