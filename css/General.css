@@ -6,9 +6,11 @@
 
 body {
 
-    background-color:  rgb(235, 235, 235);
+    background-color: black;
     overflow-x: hidden;
     position: relative;
     z-index: 1;
+    overflow: overlay;
 }
-  
+
+

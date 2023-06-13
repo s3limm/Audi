@@ -1,0 +1,64 @@
+.Cards {
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.Cards .Row1 {
+    margin-left: 55px;
+    margin-right: 55px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0fr);
+    gap: 6px;
+    grid-auto-rows: minmax(0px, auto);
+}
+
+.Cards .Row1 .card-body {
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+    height: 200px;
+    margin: 0px;
+}
+
+.Cards .Row1 img {
+    width: 520px;
+    height: 290px;
+}
+
+.Cards .Row1 .Card4 img, .Card5 img, .Card6 img
+{
+    margin-top: 70px;
+}
+
+
+.Cards .Row1 .card-body .card-title {
+    font-weight: 700;
+    font-family: AudiTypeWide, sans-serif;
+    text-align: left;
+    letter-spacing: 0.013em;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.Cards .Row1 .card-body .card-text {
+    font-family: 'Audi Type', sans-serif;
+    margin-bottom: 12px;
+    font-size: 17px;
+    line-height: 1.5rem;
+    color: rgb(32, 32, 32);
+    font-weight: 400;
+}
+
+.Cards .Row1 .card-body .btn
+{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 17px;
+    line-height: 1.5rem;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-weight: 400;
+}

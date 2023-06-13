@@ -1,0 +1,79 @@
+.Content5 {
+    background-color: rgb(255, 255, 255);
+}
+
+.Main-Text5 {
+    display: flex;
+}
+
+.Main-Text5 .ItemsContainer {
+    margin: 400px 0px 80px 60px;
+}
+
+.Main-Text5 .Picture img {
+    height: 650px;
+    width: 650px;
+    margin: 150px 0px 80px 200px;
+}
+
+.Main-Text5 .Titles {
+    flex-direction: column;
+}
+
+.Main-Text5 .Buttons {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Main-Text5 .Titles .H1-Title h1 {
+    font-family: 'Audi Type', sans-serif;
+    transform: translate(-50% , -50%) scale(3.2, 2.5);
+    margin-left: 387px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: -0.015em;
+
+}
+
+.Main-Text5 .Titles .H3-Title p {
+    margin-top: 20px;
+    font-family: 'Audi Type', sans-serif;
+    color: rgb(51, 51, 51);
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.Main-Text5 .Buttons .Discover-Button .btn:hover
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #dedede;
+    background: rgb(72, 72, 72);
+    transition: 0.4s;
+    border: 1px black solid;
+    padding: 18px 35px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Audi Type', sans-serif;
+    font-weight: 500;
+}
+
+
+.Main-Text5 .Buttons .Discover-Button .btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #dedede;
+    background: rgb(0, 0, 0);
+    border: 1px black solid;
+    padding: 18px 35px;
+    line-height: 1.4;
+    font-size: 16px;
+    font-family: 'Audi Type', sans-serif;
+    font-weight: 500;
+}
+
