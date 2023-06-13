@@ -11,6 +11,7 @@ body {
     position: relative;
     z-index: 1;
     overflow: overlay;
+    overflow-y: scroll;
 }
 
 

@@ -1,39 +1,131 @@
-.Footer .Categories ul {
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    list-style-type: none;
-    padding-top: 0px;
 }
 
-.Footer .Categories
-{
-    max-width: 1170px;
+.Footer {
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+.Categories-Container {
+    max-width: 1500px;
     margin: auto;
 }
 
-.Footer .Categories ul
-{
-    display: flex;
-    flex-wrap: wrap;
+ul {
     list-style: none;
 }
 
-.Footer .Categories ul li {
-    margin-top: 0px;
-    width: 32px;
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-
-border-top-style: none;
-border-right-style: none;
-border-bottom-style: none;
-border-left-style: none;
-cursor: initial;
-margin-bottom: var(--one-footer-space-xl);
-padding-top: 0px;
+.Footer-Column {
+    width: 25%;
+    padding: 0 15px;
 }
+
+.Footer-Column h4 {
+    font-family: 'Audi Type', sans-serif;
+    transform: translate(-50%, -50%) scale(3.3, 2.5);
+    margin-left: 214px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    letter-spacing: -0.015em;
+    font-size: 8px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.Footer-Column ul li
+{
+    line-height: 30px; 
+}
+
+.Footer-Column ul li a{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #c2c2c2;
+    display: block;
+}
+
+.Social-Media
+{
+    margin-top: 100px;
+    margin-right: 80px;
+    text-align: right;
+    
+}
+.Social-Media ul li
+{
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Social-Media ul li a
+{
+    text-decoration: none;
+}
+
+.Social-Media ul li a img{
+    width: 25px;
+    height: 25px;
+}
+
+.Footer-Details
+{
+    display: flex;
+    margin: 30px 85px 0px 85px;
+    border-top: 1px solid rgba(124, 124, 124, 0.515) ;
+}
+
+.Footer-Details .Links , .Copyright-Text
+{
+    margin-top: 30px;
+}
+
+.Footer-Details .Links
+{
+    margin-left: 20px;
+}
+
+.Footer-Details .Links ul li 
+{
+    display: inline;
+    margin: 10px;
+}
+
+.Footer-Details .Links ul li a
+{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Footer-Details .Copyright-Text
+{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 14px;
+    color: rgb(203, 203, 203);
+}
+.Footer-Info{
+    max-width: 1510px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.Footer-Info .Main-Text{
+    font-family: 'Audi Type', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(205, 205, 205);
+    line-height: 20px;
+}
+
