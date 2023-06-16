@@ -62,6 +62,7 @@
 
 
 
+
             <!--Content Start-->
             <div class="Content">
                 <div class="Main-Text">
@@ -124,11 +125,25 @@
             <!--ModalBand End-->
 
             <!--Content 2 Start-->
-            <main>
-                <section class="parallax bg">
-                    <h1>Title</h1>
-                </section>
-            </main>
+            <div class="C2-Container">
+                <div class="Parallax">
+                    <div class="Items-Parallax">
+                        <div class="ItemsContainer-Parallax">
+                            <div class="Titles">
+                                <div class="H1-Title">
+                                    <h1>Bazıları olanı görür. Biz ötesini.</h1>
+                                </div>
+                                <div class="H3-Title">
+                                    <h3>Geleceğin mobilitesi hakkında daha fazlasını keşfedin.</h3>
+                                </div>
+                            </div>
+                            <div class="Buttons">
+                                <a class="btn" href="#">Şimdi keşfedin ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!--Content 2 End-->
 
 
@@ -475,6 +490,25 @@
 
         </div>
     </section>
+
+    <script>
+
+        window.addEventListener('scroll', function () {
+            var parallaxLayer = document.querySelector('.Parallax');
+            var scrollPosition = window.pageYOffset;
+
+            parallaxLayer.style.transform = 'translate3d(-50%, ' + scrollPosition * 0.5 + 'px, 0)';
+        });
+
+
+        window.addEventListener('scroll', function () {
+            var parallaxLayer = document.querySelector('.Items-Parallax');
+            var scrollPosition = window.pageYOffset;
+
+            parallaxLayer.style.transform = 'translate3d(0, ' + scrollPosition * -0.5 + 'px, 0)';
+        });
+
+    </script>
 
 </body>
 

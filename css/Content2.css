@@ -1,0 +1,98 @@
+.C2-Container {
+    max-width: 1920px;
+    margin-top: 0px;
+    margin-right: auto;
+    height: 1700px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.Parallax {
+    position: relative;
+    width: 100%;
+    height: 2300px;
+    background-image: url(/pictures/bg-foto.avif);
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    z-index: -1;
+    top: -900.625px;
+    transform-style: preserve-3d;
+    left: 50%;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+
+.C2-Container .Parallax .Items-Parallax {
+
+    position: absolute;
+    backface-visibility: hidden;
+    z-index: 1;
+    will-change: transform;
+    width: 100%;
+    transform-style: preserve-3d;
+    top: 266.65625px;
+    margin-top: 950px; /*350*/
+    perspective: 100px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    display: flex;
+    flex-basis: auto;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.Parallax .ItemsContainer-Parallax {
+    position:relative;
+    left: 4%;
+    z-index: 2;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    padding: 65px 150px 65px 100px;
+    align-self: flex-start;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-block-start: 88px;
+
+}
+
+.C2-Container .Parallax .Titles {}
+
+
+.C2-Container .Parallax .Titles .H1-Title h1 {
+    font-family: 'Audi Type', sans-serif;
+    transform: translate(-50%, -50%) scale(3.3, 2.5);
+    margin-left: 240px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    font-size: 12px;
+    line-height: 60px;
+    color: black;
+}
+
+.C2-Container .Parallax .Titles .H3-Title h3 {
+    font-family: 'Audi Type', sans-serif;
+    transform: translate(-50%, -50%) scale(3.3, 2.5);
+    margin-left: 240px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    letter-spacing: -0.015em;
+    font-size: 6px;
+    line-height: 45px;
+    color: black;
+}
+
+.C2-Container .Parallax .Items-Parallax .Buttons .btn {
+    font-family: 'Audi Type', sans-serif;
+    font-size: 17px;
+    line-height: 1.5rem;
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: -50px;
+}
